@@ -14,5 +14,22 @@ h2 {
     color: #922E2E;
     font-family: 'Pretendard-Bold';
     font-size: 30px;
-    margin-top: 55px;
+    margin-top: 70px;
+}
+
+.menubar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Pretendard-Bold';
+}
+
+.menu {
+    display: flex;
+    gap: 55px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 8px;
 }
