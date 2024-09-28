@@ -12,6 +12,23 @@
     font-style: normal;
 }
 
+html, body {
+    overflow: hidden; /* 스크롤바를 숨김 */
+    height: 100%; /* 페이지 전체 높이 설정 */
+    scroll-behavior: smooth; /* 부드러운 스크롤 */
+}
+
+body {
+    position: relative; /* 상대 위치 */
+    overflow-y: scroll; /* 수직 스크롤은 가능하게 설정 */
+    padding-right: 17px; /* 스크롤바 넓이만큼 패딩 추가 (필요시) */
+}
+
+::-webkit-scrollbar {
+    width: 0; /* 스크롤바 너비를 0으로 설정하여 숨김 */
+    background: transparent; /* 스크롤바 배경 투명화 */
+}
+
 body {
     background-color: #FFEDED;
 }
@@ -67,4 +84,56 @@ h2 {
     outline: none;
     font-size: 14px;
     color: black;
+}
+
+.jaju-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.jaju-image {
+    width: 660px;
+    height: 340px;
+}
+
+.discount-container {
+    font-family: 'Pretendard-Bold';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 900px;
+    font-size: 18px;
+}
+
+.discount-text {
+    margin-right: 13px;
+}
+
+.discount-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+    margin-bottom: 40px;
+    gap: 50px;
+    /* margin-left: 17px; */
+}
+
+.fwe {
+    width: 300px;
+    height: 330px;
+}
+
+.rom {
+    width: 300px;
+    height: 330px;
+}
+
+.nok {
+    width: 300px;
+    height: 330px;
 }
