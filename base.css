@@ -121,3 +121,17 @@ h2 {
     color: black;
     font-family: 'Pretendard-SemiBold'; /* 폰트 패밀리 추가 */
 }
+
+.jaju-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    cursor: pointer;
+}
+
+.jaju-image {
+    width: 660px;
+    height: 340px;
+    object-fit: cover;
+}
