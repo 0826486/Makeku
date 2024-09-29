@@ -18,6 +18,40 @@ html, body {
     scroll-behavior: smooth; /* 부드러운 스크롤 */
 }
 
+h2 a {
+    color: #922E2E; /* h2 하이퍼링크 색상 설정 */
+    text-decoration: none; /* 아래 선 제거 */
+}
+
+h2 a:visited {
+    color: #922E2E; /* 방문한 하이퍼링크 색상 설정 */
+}
+
+h2 a:hover {
+    color: #922E2E; /* 마우스 오버 시 색상 유지 */
+}
+
+h2 a:active {
+    color: #922E2E; /* 클릭 시 색상 유지 */
+}
+
+.menu a {
+    text-decoration: none; /* 하이퍼링크 아래 선 제거 */
+    color: black; /* 기본 링크 색상 설정 */
+}
+
+.menu a:visited {
+    color: black; /* 방문한 링크 색상도 검정으로 유지 */
+}
+
+.menu a:hover {
+    color: black; /* 마우스 오버 시 색상도 검정으로 유지 */
+}
+
+.menu a:active {
+    color: black; /* 클릭 시 색상도 검정으로 유지 */
+}
+
 body {
     position: relative; /* 상대 위치 */
     overflow-y: scroll; /* 수직 스크롤은 가능하게 설정 */

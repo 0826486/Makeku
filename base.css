@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    overflow: hidden; /* 스크롤바를 숨김 */
+    height: 100%; /* 페이지 전체 높이 설정 */
+    scroll-behavior: smooth; /* 부드러운 스크롤 */
+}
+
+h2 a {
+    color: #922E2E;
+    text-decoration: none;
+}
+
+h2 a:visited {
+    color: #922E2E; 
+}
+
+h2 a:hover {
+    color: #922E2E; /* 마우스 오버 시 색상 유지 */
+}
+
+h2 a:active {
+    color: #922E2E;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FF00B7; 
+}
+
+.menu a:visited {
+    color: #FF00B7;
+}
+
+.menu a:hover {
+    color: #FF00B7;
+}
+
+.menu a:active {
+    color: #FF00B7; 
+}
+
+body {
+    position: relative; /* 상대 위치 */
+    overflow-y: scroll; /* 수직 스크롤은 가능하게 설정 */
+    padding-right: 17px; /* 스크롤바 넓이만큼 패딩 추가 (필요시) */
+}
+
+::-webkit-scrollbar {
+    width: 0; /* 스크롤바 너비를 0으로 설정하여 숨김 */
+    background: transparent; /* 스크롤바 배경 투명화 */
+}
+
+body {
+    background-color: #FFEDED;
+}
+
+h2 {
+    font-family: 'Pretendard-Bold';
+    text-align: center;
+    color: #922E2E;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menubar {
+    font-family: 'Pretendard-Bold';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.menu {
+    display: flex;
+    gap: 55px;
+    list-style: none;
+    margin-top: 6px;
+}
+
+.search-container {
+    font-family: 'Pretendard-SemiBold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    padding: 14px;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 580px;
+    max-width: 404px;
+}
+
+.search-input {
+    flex: 1; /* 입력창이 차지할 수 있는 공간을 최대화 */
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    font-family: 'Pretendard-SemiBold'; /* 폰트 패밀리 추가 */
+}
