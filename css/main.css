@@ -40,6 +40,7 @@ h2 {
     font-size: 30px;
     font-weight: bold;
     margin-top: 70px;
+    cursor: pointer;
 }
 
 .container {
@@ -91,6 +92,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 44px;
+    cursor: pointer;
 }
 
 .jaju-image {
@@ -122,19 +124,10 @@ h2 {
     margin-bottom: 40px;
     gap: 50px;
     margin-left: 60px;
+    cursor: pointer;
 }
 
-.fwe {
-    width: 320px;
-    height: 400px;
-}
-
-.rom {
-    width: 320px;
-    height: 400px;
-}
-
-.nok {
+.fwe, .rom, .nok {
     width: 320px;
     height: 400px;
 }
@@ -143,6 +136,7 @@ h2 {
     font-family: 'Pretendard-Bold';
     font-weight: bold;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .chu-text {
@@ -160,6 +154,7 @@ h2 {
     margin-bottom: 40px;
     gap: 50px;
     margin-left: 60px;
+    cursor: pointer;
 }
 
 .gu, .peri, .E {
@@ -172,12 +167,48 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: -4px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     gap: 50px;
     margin-left: 60px;
+    cursor: pointer;
 }
 
 .H, .rua, .gi {
     width: 320px;
     height: 400px;
+}
+
+.footer {
+    background-color: #dac7ce;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* 상하 패딩 */
+    position: relative;
+    width: 100vw; /* 뷰포트 너비를 100%로 설정하여 가로 끝까지 확장 */
+    left: 0; /* 화면의 왼쪽 끝에 맞춤 */
+    margin: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    font-family: 'Pretendard-SemiBold';
+    color: #888395;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    margin: 0;
+    font-size: 19px;
+    color: #888395;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px; 
 }
