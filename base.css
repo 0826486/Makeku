@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 html, body {
     overflow: hidden; /* 스크롤바를 숨김 */
     height: 100%; /* 페이지 전체 높이 설정 */
@@ -134,4 +141,61 @@ h2 {
     width: 660px;
     height: 340px;
     object-fit: cover;
+}
+
+.sun {
+    display: flex;
+    font-family: 'Pretendard-Medium';
+    margin-top: 24px;
+    margin-left: 234px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}
+
+.base-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+
+.jung, .es, .la {
+    width: 300px;
+    height: 360px;
+}
+
+.basetwo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+
+.about, .name, .the {
+    width: 300px;
+    height: 360px;
+}
+
+.basethree-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+
+.pi, .pow, .con {
+    width: 300px;
+    height: 360px;
 }
