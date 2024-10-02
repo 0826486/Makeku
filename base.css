@@ -172,15 +172,6 @@ h2 {
     height: 360px;
 }
 
-.basetwo-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-bottom: 120px;
-    cursor: pointer;
-}
-
 .about, .name, .the {
     width: 300px;
     height: 360px;
@@ -220,18 +211,25 @@ h4 {
     font-weight: bold;
 }
 
-.h {
-    font-family: 'Pretendard-Bold';
-    margin-top: 16px;
-    margin-bottom: 8px; /* 간격을 줄이기 위해 margin-bottom을 줄임 */
+.basetwo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.about, .naming, .thesaem {
+.abounton, .naming, .thesame {
     font-family: 'Pretendard-SemiBold';
-    margin: 0;
-    line-height: 1.4; /* 적절한 line-height 설정 */
+    margin: 0; 
+    line-height: -20;
+    margin-bottom: 10px;
 }
 
 .t {
-    margin: 3px 0; /* p의 margin-top과 margin-bottom을 줄여서 전체 간격 축소 */
+    font-family: 'Pretendard-SemiBold';
+    margin: 5px 0;
+    color: #FF0000;
+    font-weight: bold;
 }
