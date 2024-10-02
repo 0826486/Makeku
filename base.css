@@ -163,7 +163,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -198,4 +198,40 @@ h2 {
 .pi, .pow, .con {
     width: 300px;
     height: 360px;
+}
+
+h4 {
+    font-family: 'Pretendard-Bold';
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.jungsam, .espoir, .laneige {
+    font-family: 'Pretendard-SemiBold';
+    margin: 0; 
+    line-height: -20;
+    margin-bottom: 10px;
+}
+
+.i {
+    font-family: 'Pretendard-SemiBold';
+    margin: 5px 0;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.h {
+    font-family: 'Pretendard-Bold';
+    margin-top: 16px;
+    margin-bottom: 8px; /* 간격을 줄이기 위해 margin-bottom을 줄임 */
+}
+
+.about, .naming, .thesaem {
+    font-family: 'Pretendard-SemiBold';
+    margin: 0;
+    line-height: 1.4; /* 적절한 line-height 설정 */
+}
+
+.t {
+    margin: 3px 0; /* p의 margin-top과 margin-bottom을 줄여서 전체 간격 축소 */
 }
