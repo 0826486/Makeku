@@ -177,6 +177,11 @@ h2 {
     height: 360px;
 }
 
+.mu, .stay, .ba {
+    width: 300px;
+    height: 360px;
+}
+
 h4 {
     font-family: 'Pretendard-Bold';
     margin-top: 16px;
@@ -229,7 +234,42 @@ h4 {
     cursor: pointer;
 }
 
-.pi, .pow, .con {
-    width: 300px;
-    height: 360px;
+.mul, .make, .bbi {
+    font-family: 'Pretendard-SemiBold';
+    margin: 0; 
+    line-height: -20;
+    margin-bottom: 10px;
+}
+
+.e {
+    font-family: 'Pretendard-SemiBold';
+    margin: 5px 0;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    text-decoration: none;
+}
+
+.submit button {
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: #E58787;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit button a {
+    text-decoration: none; 
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
