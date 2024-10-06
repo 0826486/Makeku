@@ -47,18 +47,6 @@ h2 a:active {
     color: #FF00B7; 
 }
 
-.menu a:visited {
-    color: #FF00B7;
-}
-
-.menu a:hover {
-    color: #FF00B7;
-}
-
-.menu a:active {
-    color: #FF00B7; 
-}
-
 body {
     position: relative; /* 상대 위치 */
     overflow-y: scroll; /* 수직 스크롤은 가능하게 설정 */
@@ -127,4 +115,19 @@ h2 {
     font-size: 14px;
     color: black;
     font-family: 'Pretendard-SemiBold'; /* 폰트 패밀리 추가 */
+}
+
+.sun {
+    display: flex;
+    font-family: 'Pretendard-Medium';
+    margin-top: 24px;
+    margin-left: 234px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
 }
