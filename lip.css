@@ -44,7 +44,19 @@ h2 a:active {
 
 .menu a {
     text-decoration: none;
-    color: #FF00B7; 
+    color: black; /* 기본 색상 설정 */
+}
+
+.menu li.active a {
+    color: #FF00B7; /* active 클래스가 있는 경우 색상 변경 */
+}
+
+.menu li a {
+    color: black; /* 기본 색상은 검정으로 설정 */
+}
+
+.menu li.active a {
+    color: #FF00B7; /* 활성화된 메뉴 색상 설정 */
 }
 
 body {
