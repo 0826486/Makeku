@@ -143,3 +143,37 @@ h2 {
     gap: 40px;
     font-size: 16px;
 }
+
+.lip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rom, .pe, .ce {
+    width: 300px;
+    height: 360px;
+}
+
+h4 {
+    font-family: 'Pretendard-Bold';
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.an, .ri, .th {
+    font-family: 'Pretendard-SemiBold';
+    margin: 0; 
+    line-height: -20;
+    margin-bottom: 10px;
+}
+
+.i {
+    font-family: 'Pretendard-SemiBold';
+    margin: 5px 0;
+    color: #FF0000;
+    font-weight: bold;
+}
