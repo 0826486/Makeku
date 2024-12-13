@@ -13,54 +13,55 @@
 }
 
 html, body {
-    overflow: hidden; /* 스크롤바를 숨김 */
-    height: 100%; /* 페이지 전체 높이 설정 */
-    scroll-behavior: smooth; /* 부드러운 스크롤 */
+    overflow: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
 }
 
 h2 a {
-    color: #922E2E; /* h2 하이퍼링크 색상 설정 */
-    text-decoration: none; /* 아래 선 제거 */
+    color: #922E2E;
+    text-decoration: none;
 }
 
 h2 a:visited {
-    color: #922E2E; /* 방문한 하이퍼링크 색상 설정 */
+    color: #922E2E;
 }
 
 h2 a:hover {
-    color: #922E2E; /* 마우스 오버 시 색상 유지 */
+    color: #922E2E;
 }
 
 h2 a:active {
-    color: #922E2E; /* 클릭 시 색상 유지 */
+    color: #922E2E;
 }
 
 .menu a {
-    text-decoration: none; /* 하이퍼링크 아래 선 제거 */
-    color: black; /* 기본 링크 색상 설정 */
+    text-decoration: none;
+    color: black;
 }
 
 .menu a:visited {
-    color: black; /* 방문한 링크 색상도 검정으로 유지 */
+    color: black;
 }
 
 .menu a:hover {
-    color: black; /* 마우스 오버 시 색상도 검정으로 유지 */
+    color: black; 
 }
 
 .menu a:active {
-    color: black; /* 클릭 시 색상도 검정으로 유지 */
+    color: black;
 }
 
 body {
-    position: relative; /* 상대 위치 */
-    overflow-y: scroll; /* 수직 스크롤은 가능하게 설정 */
-    padding-right: 17px; /* 스크롤바 넓이만큼 패딩 추가 (필요시) */
+    position: relative; 
+    overflow-y: scroll;
+    padding-right: 17px;
 }
 
+/* 스크롤바 숨기기 */
 ::-webkit-scrollbar {
-    width: 0; /* 스크롤바 너비를 0으로 설정하여 숨김 */
-    background: transparent; /* 스크롤바 배경 투명화 */
+    width: 0;
+    background: transparent;
 }
 
 body {
@@ -136,12 +137,66 @@ h2 {
     margin-bottom: 40px;
     gap: 50px;
     margin-left: 60px;
+}
+
+.image-container {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.5s ease; /* 이미지 색상 변화 효과 */
+}
+
+.image-container:hover img {
+    filter: brightness(0.5); /* 마우스를 올렸을 때 이미지 어둡게 */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 244, 244, 0.1);
+    display: flex;
+    justify-content: center; /* 텍스트 수평 중앙 정렬 */
+    align-items: center; /* 텍스트 수직 중앙 정렬 */
+    opacity: 0; /* 초기 상태에서 숨김 */
+    transition: opacity 0.5s ease; /* 부드럽게 나타나는 효과 */
+}
+
+.image-container:hover .overlay {
+    opacity: 1; /* 마우스를 올렸을 때 배경과 텍스트 표시 */
+}
+
+.overlay p {
+    font-family: 'Pretendard-Bold';
+    color: white;
+    font-size: 20px;
+}
+
+
+.discount-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+    margin-bottom: 40px;
+    gap: 50px;
+    margin-left: 60px;
     cursor: pointer;
 }
 
 .fwe, .rom, .nok {
     width: 320px;
     height: 400px;
+    position: relative; /* 이미지에 상대적인 위치를 설정 */
 }
 
 .chu-container {
