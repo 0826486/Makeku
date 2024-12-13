@@ -99,28 +99,6 @@ h2 {
     margin-top: 6px;
 }
 
-.search-container {
-    font-family: 'Pretendard-SemiBold';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px; 
-    padding: 14px;
-    background-color: white;
-    border-radius: 15px;
-    width: 80%;
-    margin-left: 580px;
-    max-width: 404px;
-}
-
-.search-input {
-    flex: 1; /* 입력창이 차지할 수 있는 공간을 최대화 */
-    border: none;
-    outline: none;
-    font-size: 14px;
-    color: black;
-}
-
 .jaju-container {
     display: flex;
     justify-content: center;
